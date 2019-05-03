@@ -6,10 +6,20 @@
     <description>Recent content in R on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Parental leave across OECD countries</title>
+      <link>/2019/05/03/parental-leave-across-oecd-countries/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/05/03/parental-leave-across-oecd-countries/</guid>
+      <description>A quick look into paid leave available to momsI was recently researching maternity leave options in Poland. In simplification as a mother in Poland you can get:
+a year of a paid leave at a rate 80% (20 weeks of maternity leave and 32 of parental leave)half a year (20 weeks maternity leave + 6 weeks parental leave) paid 100% and another half 60% (26 weeks of parental leave).</description>
+    </item>
     
     <item>
       <title>The trendiest baby names in Poland</title>

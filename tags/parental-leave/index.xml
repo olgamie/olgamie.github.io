@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hello!</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Hello!</description>
+    <title>Parental Leave on Hello!</title>
+    <link>/tags/parental-leave/</link>
+    <description>Recent content in Parental Leave on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/parental-leave/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/2019/05/03/parental-leave-across-oecd-countries/</guid>
       <description>A quick look into paid leave available to momsI was recently researching maternity leave options in Poland. In simplification as a mother in Poland you can get:
 a year of a paid leave at a rate 80% (20 weeks of maternity leave and 32 of parental leave)half a year (20 weeks maternity leave + 6 weeks parental leave) paid 100% and another half 60% (26 weeks of parental leave).</description>
-    </item>
-    
-    <item>
-      <title>The trendiest baby names in Poland</title>
-      <link>/2019/04/10/the-trendiest-baby-names-in-poland/</link>
-      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/04/10/the-trendiest-baby-names-in-poland/</guid>
-      <description>It is a challenge to choose a name for your baby. At least it has been for me. To make this decision easier I wanted to look into current trends, as neither my husband nor I wanted a baby to have a super popular name. If you want to know what names are currently trending in Poland this post is for you.
-Polish Ministry of Digitalization publishes the baby names statistics.</description>
     </item>
     
   </channel>
