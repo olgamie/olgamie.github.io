@@ -98,3 +98,7 @@ footer {
 img {
     max-width: 100%;
 }
+
+#myul {
+    padding-left: 0;
+}
