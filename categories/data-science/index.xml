@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on Hello!</title>
+    <link>/categories/data-science/</link>
+    <description>Recent content in Data Science on Hello!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Science Salary Survey in Poland 2019</title>
+      <link>/2020/02/03/data-science-salary-survey-in-poland-2019/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/02/03/data-science-salary-survey-in-poland-2019/</guid>
+      <description>What is a Data Science Salary Survey?At the end of 2019 as one of the Warsaw R Enthusiasts Meetup initiatives I designed a salary survey for broadly understood data science/data analysis/machine learning job market in Poland. This exercise was inspired by the similar survey from Germany. A survey was advertised using social media among the R/data science/machine learning community. Despite Meetup organizers’ attempts to reach as many people in the community as possible, I acknowledge that these results don’t represent everyone on the Polish data science scene.</description>
+    </item>
+    
+  </channel>
+</rss>

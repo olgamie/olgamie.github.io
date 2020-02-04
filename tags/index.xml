@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Data Science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Parental Leave</title>
       <link>/tags/parental-leave/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
@@ -39,11 +48,29 @@
     </item>
     
     <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salary</title>
+      <link>/tags/salary/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/salary/</guid>
       <description></description>
     </item>
     

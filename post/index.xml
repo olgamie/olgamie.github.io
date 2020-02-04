@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Science Salary Survey in Poland 2019</title>
+      <link>/2020/02/03/data-science-salary-survey-in-poland-2019/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/02/03/data-science-salary-survey-in-poland-2019/</guid>
+      <description>What is a Data Science Salary Survey?At the end of 2019 as one of the Warsaw R Enthusiasts Meetup initiatives I designed a salary survey for broadly understood data science/data analysis/machine learning job market in Poland. This exercise was inspired by the similar survey from Germany. A survey was advertised using social media among the R/data science/machine learning community. Despite Meetup organizers’ attempts to reach as many people in the community as possible, I acknowledge that these results don’t represent everyone on the Polish data science scene.</description>
+    </item>
     
     <item>
       <title>Parental leave across OECD countries</title>
