@@ -6,10 +6,20 @@
     <description>Recent content on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>My name is Olga Mierzwa-Sulima and I am a Senior Data Scientist at Appsilon. I love solving problems using data, beautiful visualizations, dogs and back-country skiing.
+I hold a Master degree in Econometrics from the University of Rotterdam in the Netherlands. I have been working for boutique consulting companies helping global clients, like Unilever, NN or WHO. I&amp;rsquo;m huge enthusiast of the statistical programming language R, which is my primary tool at work.</description>
+    </item>
     
     <item>
       <title>Data Science Salary Survey in Poland 2019</title>
@@ -38,16 +48,6 @@
       <guid>/2019/04/10/the-trendiest-baby-names-in-poland/</guid>
       <description>It is a challenge to choose a name for your baby. At least it has been for me. To make this decision easier I wanted to look into current trends, as neither my husband nor I wanted a baby to have a super popular name. If you want to know what names are currently trending in Poland this post is for you.
 Polish Ministry of Digitalization publishes the baby names statistics.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>My name is Olga Mierzwa-Sulima and I am a Senior Data Scientist at Appsilon. I love solving problems using data, beautiful visualizations, dogs and back-country skiing.
-I hold a Master degree in Econometrics from the University of Rotterdam in the Netherlands. I have been working for boutique consulting companies helping global clients, like Unilever, NN or WHO. I&amp;rsquo;m huge enthusiast of the statistical programming language R, which is my primary tool at work.</description>
     </item>
     
   </channel>
