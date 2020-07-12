@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2020/07/12/recap-tackling-climate-change-user-2020-breakout-session/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
@@ -34,6 +39,12 @@
   </url>
   
   <url>
+    <loc>/tags/climate-change/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/data-science/</loc>
     <lastmod>2020-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -41,13 +52,13 @@
   
   <url>
     <loc>/categories/data-science/</loc>
-    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,7 +76,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -77,7 +88,7 @@
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,6 +107,12 @@
   <url>
     <loc>/tags/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/user/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Recap Tackling Climate Change useR! 2020 breakout session</title>
+      <link>/2020/07/12/recap-tackling-climate-change-user-2020-breakout-session/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/12/recap-tackling-climate-change-user-2020-breakout-session/</guid>
+      <description>On Tuesday, July 7th I organized a breakout session Tackling Climate Change at a virtual useR!2020 Munich.When I submitted the proposal I hoped the session will be a mix of an invited talk, climate-related contributions submitted to the useR! and an open discussionbetween R users and researchers. In an online setup, the final session schedule was a bit different.
+The session lasted almost to 2 scheduled hours.</description>
+    </item>
     
     <item>
       <title>Data Science Salary Survey in Poland 2019</title>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random Forest on Hello!</title>
+    <link>/tags/random-forest/</link>
+    <description>Recent content in Random Forest on Hello!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/random-forest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improve random forest performance using variable importance in R</title>
+      <link>/2020/06/15/improve-random-forest-performance-using-variable-importance-in-r/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/15/improve-random-forest-performance-using-variable-importance-in-r/</guid>
+      <description>tltrI fine-tune a random forest (RF) model using variable importance in R.I show how to use DALEX package to understand a random forest built with ranger package, simplify it, improve performance and run time. I use recipes package to handel categorical variables, missing values and novel levels.
+Variable importanceFeature or variable importance let’s you understand which features are important in a given machine learning model. Usually there is only a handful of variables that are important and you want to care about when building and understanding a model.</description>
+    </item>
+    
+  </channel>
+</rss>
