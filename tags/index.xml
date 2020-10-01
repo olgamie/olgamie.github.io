@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Dalex</title>
+      <link>/tags/dalex/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dalex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Science</title>
       <link>/tags/data-science/</link>
       <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
@@ -68,9 +77,27 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random Forest</title>
+      <link>/tags/random-forest/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/random-forest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ranger</title>
+      <link>/tags/ranger/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ranger/</guid>
       <description></description>
     </item>
     
@@ -89,6 +116,15 @@
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/user/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variable Importance</title>
+      <link>/tags/variable-importance/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/variable-importance/</guid>
       <description></description>
     </item>
     

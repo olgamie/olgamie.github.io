@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2020/09/30/building-first-baseline-with-random-forest-using-ranger-and-dalex/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2020/07/12/recap-tackling-climate-change-user-2020-breakout-session/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
@@ -45,20 +50,26 @@
   </url>
   
   <url>
+    <loc>/tags/dalex/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/data-science/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/data-science/</loc>
     <lastmod>2020-02-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/data-science/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -76,7 +87,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,14 +98,26 @@
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-05-03T00:00:00+00:00</lastmod>
+    <loc>/tags/r/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/random-forest/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ranger/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -113,6 +136,12 @@
   <url>
     <loc>/tags/user/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/variable-importance/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

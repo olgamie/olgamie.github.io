@@ -6,19 +6,19 @@
     <description>Recent content in Dalex on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/dalex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Improve random forest performance using variable importance in R</title>
-      <link>/2020/06/15/improve-random-forest-performance-using-variable-importance-in-r/</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      <title>Building first baseline with random forest using ranger and DALEX</title>
+      <link>/2020/09/30/building-first-baseline-with-random-forest-using-ranger-and-dalex/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/06/15/improve-random-forest-performance-using-variable-importance-in-r/</guid>
-      <description>tltrI fine-tune a random forest (RF) model using variable importance in R.I show how to use DALEX package to understand a random forest built with ranger package, simplify it, improve performance and run time. I use recipes package to handel categorical variables, missing values and novel levels.
-Variable importanceFeature or variable importance let’s you understand which features are important in a given machine learning model. Usually there is only a handful of variables that are important and you want to care about when building and understanding a model.</description>
+      <guid>/2020/09/30/building-first-baseline-with-random-forest-using-ranger-and-dalex/</guid>
+      <description>TL;DRI show an approach to building a first baseline model using random forest (RF).I use DALEX package to understand a random forest built with ranger package, simplify it, improve performance, and run time. I use recipes package to handle categorical variables, missing values, and novel levels.
+Random forest and first baselineRandom forest is a powerful and flexible model that is relatively easy to tune. This is why it’s usually a top candidate to start with and build the first baseline.</description>
     </item>
     
   </channel>
