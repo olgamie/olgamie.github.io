@@ -6,10 +6,19 @@
     <description>Recent content on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Classifying animals on camera traps using deep learning - iWildCam 2020 Kaggle top 10% solution</title>
+      <link>/2020/10/05/classifying-animals-on-camera-traps-using-deep-learning-iwildcam-2020-kaggle-top-10-solution/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/10/05/classifying-animals-on-camera-traps-using-deep-learning-iwildcam-2020-kaggle-top-10-solution/</guid>
+      <description>TL;DRI used data from iWildCam 2020 Kaggle competition to practice machine learning vision after completing fast.ai’s deep learning course.I managed to build a solution that achieved 78% accuracy on the test set in classifying animals on the camera trap photo, which places the solution in the top 10% of this competition (10/126).I built two models: the first model is a ResNet50 on the original images but resized, with moderate data augmentation, mixup and TTA, the second model is also ResNet50 built on the cropped images to bboxes detecting the animals.</description>
+    </item>
     
     <item>
       <title>Building first baseline with random forest using ranger and DALEX</title>

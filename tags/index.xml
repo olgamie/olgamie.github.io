@@ -48,6 +48,24 @@
     </item>
     
     <item>
+      <title>Deep Learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fastai</title>
+      <link>/tags/fastai/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fastai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Parental Leave</title>
       <link>/tags/parental-leave/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
@@ -68,7 +86,7 @@
     <item>
       <title>Python</title>
       <link>/tags/python/</link>
-      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/python/</guid>
       <description></description>
@@ -125,6 +143,15 @@
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/variable-importance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision</title>
+      <link>/tags/vision/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vision/</guid>
       <description></description>
     </item>
     
