@@ -6,10 +6,29 @@
     <description>Recent content on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>My name is Olga Mierzwa-Sulima and I am Head of Delivery at Appsilon. I love solving problems using data, beautiful visualizations, dogs and back-country skiing. At work I optimize for 3 things: (1) customer success, (2) thriving teams and individuals, and (3) happy Appsilon.
+I hold a Master degree in Econometrics from the University of Rotterdam in the Netherlands. I have been working for boutique consulting companies helping global clients, like Unilever, NN or WHO.</description>
+    </item>
+    
+    <item>
+      <title>What to read as a New Engineering Manager</title>
+      <link>/2022/04/21/what-to-read-as-a-new-engineering-manager/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/04/21/what-to-read-as-a-new-engineering-manager/</guid>
+      <description>Moving into Engineering Management (EM) from the Individual Contributors (IC) track is a career change, not a promotion. Your responsibilities and schedule change completely. In the beginning, it might be scary, at least for me it felt like a new job. I’d like to list resources that help me navigate this change. Here are the ones that I read on a regular basis when settling in the new role.</description>
+    </item>
     
     <item>
       <title>Classifying animals on camera traps using deep learning - iWildCam 2020 Kaggle top 10% solution</title>
@@ -38,16 +57,6 @@ Random forest and first baselineRandom forest is a powerful and flexible model 
       <guid>/2020/07/12/recap-tackling-climate-change-user-2020-breakout-session/</guid>
       <description>On Tuesday, July 7th I organized a breakout session Tackling Climate Change at a virtual useR!2020 Munich.When I submitted the proposal I hoped the session will be a mix of an invited talk, climate-related contributions submitted to the useR! and an open discussionbetween R users and researchers. In an online setup, the final session schedule was a bit different.
 The session lasted almost 2 scheduled hours. Around 130 people joined the session.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>/about/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>My name is Olga Mierzwa-Sulima and I am Head of Delivery at Appsilon. I love solving problems using data, beautiful visualizations, dogs and back-country skiing. At work I optimize for 3 things: (1) customer success, (2) thriving teams and individuals, and (3) happy Appsilon.
-I hold a Master degree in Econometrics from the University of Rotterdam in the Netherlands. I have been working for boutique consulting companies helping global clients, like Unilever, NN or WHO.</description>
     </item>
     
     <item>

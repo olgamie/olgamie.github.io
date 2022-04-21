@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/about/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2022/04/21/what-to-read-as-a-new-engineering-manager/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2020/10/05/classifying-animals-on-camera-traps-using-deep-learning-iwildcam-2020-kaggle-top-10-solution/</loc>
     <lastmod>2020-10-05T00:00:00+00:00</lastmod>
   </url>
@@ -15,11 +25,6 @@
   <url>
     <loc>/2020/07/12/recap-tackling-climate-change-user-2020-breakout-session/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -79,6 +84,18 @@
   </url>
   
   <url>
+    <loc>/categories/engineering-management/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/engineering-manager/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/fastai/</loc>
     <lastmod>2020-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -86,7 +103,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/managament/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,7 +127,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
