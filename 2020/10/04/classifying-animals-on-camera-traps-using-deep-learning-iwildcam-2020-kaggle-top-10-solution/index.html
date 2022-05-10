@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Classifying animals on camera traps using deep learning - iWildCam 2020 Kaggle top 10% solution</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #28d102;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.54.0" />
+        
+
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138037459-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-138037459-1');
+        </script>
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Classifying animals on camera traps using deep learning - iWildCam 2020 Kaggle top 10% solution</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post">Blog</a></li>
+                            
+                                <li><a href="/about">About</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:olga.mierzwa@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/olgamie"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/olga_mie/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/olga-mierzwa-sulima-84843539/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/10/04/classifying-animals-on-camera-traps-using-deep-learning-iwildcam-2020-kaggle-top-10-solution/">Classifying animals on camera traps using deep learning - iWildCam 2020 Kaggle top 10% solution</a></h4>
+    <h5>October 4, 2020</h5>
+    
+    <a href="/tags/deep-learning"><kbd class="item-tag">deep learning</kbd></a>
+    
+    <a href="/tags/vision"><kbd class="item-tag">vision</kbd></a>
+    
+    <a href="/tags/fastai"><kbd class="item-tag">fastai</kbd></a>
+    
+    <a href="/tags/python"><kbd class="item-tag">python</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="tldr" class="section level2">
+<h2>TL;DR</h2>
+<p>I used data from <a href="https://www.kaggle.com/c/iwildcam-2020-fgvc7/overview">iWildCam 2020</a> Kaggle competition to practice machine learning vision after completing <a href="https://course.fast.ai/">fast.ai’s</a> deep learning course.
+I managed to build a solution that achieved 78% accuracy on the test set in classifying animals on the camera trap photo, which places the solution in the top 10% of this competition (10/126).
+I built two models: the first model is a ResNet50 on the original images but resized, with moderate data augmentation, mixup and TTA, the second model is also ResNet50 built on the cropped images to bboxes detecting the animals. Predictions were aggregated with probabilities from the original images’ model weighted with 0.3 and 0.7 for cropped model predictions. Finally, the predictions were grouped using location and timestamp into sequences and the majority class was assigned to the whole sequence as a final prediction.</p>
+<div class="figure">
+<img src="https://github.com/olgamie/olga_blog/blob/master/content/post/iwildcam/zebra.jpg?raw=true" alt="" />
+<p class="caption">Zebra</p>
+</div>
+</div>
+<div id="data-pre-processing" class="section level2">
+<h2>Data pre-processing</h2>
+<p>The goal of 2020 iWildCam competition was to classify animals on the camera trap pictures. The created solution should work accurately on the pictures taken in the new locations.
+Data provided by the competition organizers had large resolution and had to be resized before the analysis to speed up training time. There is also no need to train a model on large resolution images. I used the <a href="https://www.kaggle.com/qitvision/iwildcam2020-256">dataset</a> shared by the Joni Juvonen with images resized to 256x256. Many thanks for sharing this data publicly with others.
+Additionally, I created <a href="https://www.kaggle.com/lennyom/iwildcam2020-animal-crops">dataset</a> and cropped original images to bboxes provided by the detector model (provided as competition data). I cropped images to bbox above 30% prediction confidence.</p>
+</div>
+<div id="data-augmentation" class="section level2">
+<h2>Data augmentation</h2>
+<p>I used a random rotation of 20 degrees, random zoom and perspective warping and adjusted brightness and contrast both in the full images and crops. I used reflection padding and normalized data to ImageNet stats.</p>
+</div>
+<div id="models" class="section level2">
+<h2>Models</h2>
+<p>I built two vision models using fastai v1. The first model was built on the original images resized to 128x128. I trained a <a href="https://www.quora.com/What-is-the-deep-neural-network-known-as-%E2%80%9CResNet-50%E2%80%9D?share=1">ResNet50</a> using <a href="https://sgugger.github.io/the-1cycle-policy.html">one cycle policy</a> and <a href="https://arxiv.org/abs/1710.09412">mixup</a> 10 epochs with a frozen body, and the next 10 epochs where all the model weights were retrained.
+The second model was also ResNet50 trained on cropped images, resized to 128x128, using one cycle policy 12 epochs with a frozen body, and the next 12 epochs where all weights were updated.
+I tried mixed precision and progressive resizing and increase the resolution of the photos to 256x256, but that didn’t improve the results for the second model.</p>
+</div>
+<div id="predictions" class="section level2">
+<h2>Predictions</h2>
+<p>Predictions were made using test time augmentation for both models. Accuracy from the first model was 68% (calculated on Kaggle’s private Leaderboard). Combining the predictions from the 2 models improved the results by 10%, resulting in final accyracy 78%. I aggregated the probabilities from 2 models using the formula <code>0.3 * probabilities from model 1 + 0.7 * probabilities from model 2</code>. For images with no predictions from the second model (lack of bbox or too low confidence) I only toke predictions from the first model. Finally, I grouped the predictions into sequences which I created using photo location info and timestamp. For each sequence, I selected the majority class in a sequence as a prediction label.</p>
+</div>
+<div id="code" class="section level2">
+<h2>Code</h2>
+<p>I trained the models using Kaggle’s kernels.
+Notebook for the model on the original images resized to 128x128 is <a href="https://www.kaggle.com/lennyom/iwildcam-2020-using-fastai-resnet50-mixup-and-tta">here</a>.
+Notebook for the second model on cropped images is <a href="https://www.kaggle.com/lennyom/iwildcam2020-fastai-on-cropped-images">here</a>.
+Kernel aggrehating the results <a href="https://www.kaggle.com/lennyom/output-aggregation">here</a>.</p>
+</div>
+<div id="acknowledgments" class="section level2">
+<h2>Acknowledgments</h2>
+<p>Many thanks to fastai’s authors for creating amazing learning resources and a deep learning powerful library.</p>
+</div>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/02/03/data-science-salary-survey-in-poland-2019/">Data Science Salary Survey in Poland 2019</a></h4>
+    <h5>February 3, 2020</h5>
+    
+    <a href="/tags/data-science"><kbd class="item-tag">data-science</kbd></a>
+    
+    <a href="/tags/salary"><kbd class="item-tag">salary</kbd></a>
+    
+    <a href="/tags/r"><kbd class="item-tag">R</kbd></a>
+    
+    <a href="/tags/python"><kbd class="item-tag">python</kbd></a>
+    
+
+</div>
+ 
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Copyright © 2019 Olga Mierzwa-Sulima</p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

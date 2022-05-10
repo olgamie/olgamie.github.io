@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Management on Hello!</title>
+    <link>/tags/management/</link>
+    <description>Recent content in Management on Hello!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What to read as a New Engineering Manager</title>
+      <link>/2022/04/21/what-to-read-as-a-new-engineering-manager/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/04/21/what-to-read-as-a-new-engineering-manager/</guid>
+      <description>Moving into Engineering Management (EM) from the Individual Contributors (IC) track is a career change, not a promotion. Your responsibilities and schedule change completely. In the beginning, it might be scary, at least for me it felt like a new job. I’d like to list resources that help me navigate this change. Here are the ones that I read on a regular basis when settling in the new role.</description>
+    </item>
+    
+  </channel>
+</rss>
